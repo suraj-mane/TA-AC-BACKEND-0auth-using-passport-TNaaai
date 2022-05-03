@@ -1,0 +1,12 @@
+<%- include('particle/header')-%>
+<main>
+  <div class="container">
+    <form action="/users/login" class="w-50 border border-dark border-2 m-auto mt-5 p-4 text-center" method="post">
+      <h1 class="p-2">Login</h1>
+      <input type="text" class="w-100 p-2 border border-dark border-2 fs-5 mt-4" placeholder="Enter Your Email" name="email">
+      <input type="text" class="w-100 p-2 border border-dark border-2 fs-5 mt-4" placeholder="Enter Your password" name="password">
+      <button type="submit" class="btn btn-success mt-4 fs-5">Login</button>
+    </form>
+  </div>
+</main>
+<%- include('particle/footer')-%>
